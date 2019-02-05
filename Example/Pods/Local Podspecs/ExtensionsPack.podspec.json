@@ -1,0 +1,22 @@
+{
+  "name": "ExtensionsPack",
+  "version": "0.1.0",
+  "summary": "A short description of ExtensionsPack.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/ExtensionsPack",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "tanaka@seesaa.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/git/ExtensionsPack.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ExtensionsPack/Classes/**/*"
+}
