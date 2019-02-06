@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ExtensionsPack'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ExtensionsPack.'
+  s.summary          = 'ExtensionsPack is extension library for Swift language.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,14 +24,14 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/git/ExtensionsPack'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'git' => 'tanaka@seesaa.co.jp' }
+  s.author           = { 'git' => 'sre20313@gmail.com' }
   s.source           = { :git => 'https://github.com/git/ExtensionsPack.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ExtensionsPack/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'ExtensionsPack' => ['ExtensionsPack/Assets/*.png']
   # }
