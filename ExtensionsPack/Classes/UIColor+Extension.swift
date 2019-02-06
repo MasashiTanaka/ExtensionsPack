@@ -11,11 +11,11 @@ import UIKit
 
 extension UIColor {
 
-    class func rgb(r: Int, g: Int, b: Int, alpha: CGFloat) -> UIColor {
+    public class func rgb(r: Int, g: Int, b: Int, alpha: CGFloat) -> UIColor {
         return UIColor(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0, alpha: alpha)
     }
     
-    class func hex(hexString: String, alpha: CGFloat) -> UIColor {
+    public class func hex(hexString: String, alpha: CGFloat) -> UIColor {
         let string = hexString.replacingOccurrences(of: "#", with: "")
         let scanner = Scanner(string: string as String)
         var color: UInt32 = 0
