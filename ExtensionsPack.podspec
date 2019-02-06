@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExtensionsPack'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Extension library for Swift language.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ ExtensionsPack is extension library for Swift language.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'git' => 'sre20313@gmail.com' }
-  s.source           = { :git => 'https://github.com/git/ExtensionsPack.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MasashiTanaka/ExtensionsPack.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
