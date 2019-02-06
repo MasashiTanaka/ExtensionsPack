@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* iOS10+
+* Swift4.2+
+* Xcode10.0+
+
 ## Installation
 
 ExtensionsPack is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +26,7 @@ pod 'ExtensionsPack'
 
 ## Author
 
-git, tanaka@seesaa.co.jp
+MasashiTanaka, sre20313@gmail.com
 
 ## License
 
