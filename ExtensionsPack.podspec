@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ExtensionsPack is extension library for Swift language.
                        DESC
 
   s.homepage         = 'https://github.com/git/ExtensionsPack'
@@ -29,6 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version         = '4.2'
 
   s.source_files = 'ExtensionsPack/Classes/**/*'
 
