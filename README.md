@@ -5,10 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/ExtensionsPack.svg?style=flat)](https://cocoapods.org/pods/ExtensionsPack)
 [![Platform](https://img.shields.io/cocoapods/p/ExtensionsPack.svg?style=flat)](https://cocoapods.org/pods/ExtensionsPack)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
 * iOS10+
@@ -23,6 +19,15 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ExtensionsPack'
 ```
+
+## List of All Extensions
+
+* [NSObject](https://github.com/MasashiTanaka/ExtensionsPack/tree/master/ExtensionsPack/Extensions/NSObject%2BExtension.swift)
+* [UIView](https://github.com/MasashiTanaka/ExtensionsPack/tree/master/ExtensionsPack/Extensions/UIView%2BExtension.swift)
+* [UIColor](https://github.com/MasashiTanaka/ExtensionsPack/tree/master/ExtensionsPack/Extensions/UIColor%2BExtension.swift)
+* [UITableView](https://github.com/MasashiTanaka/ExtensionsPack/tree/master/ExtensionsPack/Extensions/UITableView%2BExtension.swift)
+* [UICollectionView](https://github.com/MasashiTanaka/ExtensionsPack/tree/master/ExtensionsPack/Extensions/UICollectionView%2BExtension.swift)
+* [UIViewController](https://github.com/MasashiTanaka/ExtensionsPack/tree/master/ExtensionsPack/Extensions/UIViewController%2BExtension.swift)
 
 ## Author
 

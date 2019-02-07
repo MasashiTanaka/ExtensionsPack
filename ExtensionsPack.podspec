@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExtensionsPack'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Extension library for Swift language.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ ExtensionsPack is extension library for Swift language.
   s.ios.deployment_target = '10.0'
   s.swift_version         = '4.2'
 
-  s.source_files = 'ExtensionsPack/Classes/**/*'
+  s.source_files = 'ExtensionsPack/Extensions/**/*'
 
   # s.resource_bundles = {
   #   'ExtensionsPack' => ['ExtensionsPack/Assets/*.png']
