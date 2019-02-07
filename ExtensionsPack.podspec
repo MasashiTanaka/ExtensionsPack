@@ -31,7 +31,7 @@ ExtensionsPack is extension library for Swift language.
   s.ios.deployment_target = '10.0'
   s.swift_version         = '4.2'
 
-  s.source_files = 'ExtensionsPack/Extensions/**/*'
+  s.source_files = 'ExtensionsPack/Classes/**/*'
 
   # s.resource_bundles = {
   #   'ExtensionsPack' => ['ExtensionsPack/Assets/*.png']
